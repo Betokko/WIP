@@ -1,17 +1,15 @@
 <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g opacity="0.5">
 <path d="M2 29H56" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M29 2V29" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M2 29C2 14.1034 14.1034 2 29 2C43.8966 2 56 14.1525 56 29.049" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28.9999 2C28.9999 2 14.5444 7.78221 14.5444 29" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 2C29 2 14.5444 7.78221 14.5444 29" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M29 2C29 2 43.4555 7.78221 43.4555 29" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M29 17.4356C14.1034 17.4356 10.2323 9.59534 10.2323 9.59534" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28.9999 17.4356C14.1033 17.4356 10.2322 9.59534 10.2322 9.59534" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M47.7677 9.59534C47.7677 9.59534 43.8966 17.4356 29 17.4356" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M29 56V29" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M56 29C56 43.8966 43.8966 56 29 56C14.1034 56 2 43.9456 2 29" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M29 56C29 56 43.4555 50.2178 43.4555 29" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28.9999 56C28.9999 56 14.5444 50.2178 14.5444 29" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 56C29 56 14.5444 50.2178 14.5444 29" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M47.7677 48.4047C47.7677 48.4047 43.8966 40.5645 29 40.5645" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.2323 48.4047C10.2323 48.4047 14.1034 40.5645 29 40.5645" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
+<path d="M10.2322 48.4047C10.2322 48.4047 14.1033 40.5645 28.9999 40.5645" stroke="#FFE195" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
