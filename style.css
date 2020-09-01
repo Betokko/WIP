@@ -1,0 +1,127 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Signika', sans-serif; */
+
+body{
+    margin: 0;
+    background-color: #050713;
+    font-family: 'Signika', sans-serif;
+}
+ul{
+    list-style: none;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    line-height: 26px;
+}
+.wrapper{
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    transition: all .2s;
+}
+a:hover{
+    color: #FFE195;
+}
+
+/* HEADER 
+======================================*/
+
+.header {
+    padding-top: 60px;
+    
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    text-transform: uppercase;
+    white-space: nowrap;
+
+}
+.header__inner-item {
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+.logo-img{
+
+}
+/* NAV
+=============================== */
+.nav{
+
+}
+.nav__list {
+    display: flex;
+}
+.nav__item {
+    margin-right: 20px;
+}
+.nav__item:last-child{
+    margin-right: 0;
+}
+.burger{
+    height: 24px;
+    width: 30px;
+    background-color: #fff;
+}
+/* INTRO
+========================================== */
+.intro {
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+}
+.intro__item {
+    margin-top: 330px;
+}
+.intro__title {
+}
+.intro__text {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Малые девайсы («ландшафтные телефоны», >= 576px)
+@media (min-width: 576px) { ... }
+
+// Средние девайсы («таблетки», >= 768px)
+@media (min-width: 768px) { ... }
+
+// Большие девайсы (десктопы, >= 992px)
+@media (min-width: 992px) { ... }
+
+// Экстрабольшие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { ... }
