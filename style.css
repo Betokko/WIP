@@ -323,11 +323,22 @@ a:hover{
 }
 /* testimonails
 ================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
 .testimonails {
     margin-top: 95px;
 }
-.container {
-}
+
 .title,
 .testimonails_title {
     font-family: Playfair Display;
@@ -337,13 +348,14 @@ a:hover{
     color: #FFFFFF;
 }
 .testimonails__inner {
-    display: flex;
-    flex-wrap: wrap;
     margin-top: 28px;
 }
+.testimonails__slider{
+    display: flex;
+}
 .testimonails__item{
-    width: 25%;
     padding-right: 30px;
+    width: 25%;
 }
 .testimonails__item:last-child{
     padding-right: 0px;
@@ -638,6 +650,10 @@ color: #FFFFFF;
 .footer__bot-right{
     opacity: 0.5;
 }
+
+
+
+
 /* RESPONSIVE
  ==================================================*/
  
@@ -705,7 +721,6 @@ color: #FFFFFF;
 
     @media (max-width: 991px) {
         /* header  */
-
 
         .header__inner{
             padding-top: 20px;
@@ -842,7 +857,7 @@ color: #FFFFFF;
             position: absolute;
             text-align: center;
             width: 130px;
-            top: 130px;
+            top: 140px;
 
         }
 
@@ -879,3 +894,11 @@ color: #FFFFFF;
             }
       
 }
+
+
+
+
+
+
+
+
