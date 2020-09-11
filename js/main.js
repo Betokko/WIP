@@ -10,14 +10,16 @@ $(document).ready(function () {
         breakpoint: 1199,
         settings: {
           arrows: false,
-          slidesToShow: 2
+          slidesToShow: 2,
+          slidesToScroll: 2
         }
       },
       {
         breakpoint: 768,
         settings: {
           arrows: false,
-          slidesToShow: 1
+          slidesToShow: 1,
+          slidesToScroll: 1
         }
       }
     ]
@@ -35,8 +37,8 @@ $(document).ready(function () {
         settings: {
           arrows: false,
           dots: true,
-
-          slidesToShow: 3
+          slidesToShow: 2,
+          slidesToScroll: 2
         }
       },
       {
@@ -44,19 +46,11 @@ $(document).ready(function () {
         settings: {
           arrows: false,
           dots: true,
-
-          slidesToShow: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          dots: true,
-
-          slidesToShow: 1
+          slidesToShow: 1,
+          slidesToScroll: 1
         }
       }
+
     ]
 
   });
