@@ -16,6 +16,8 @@ ul{
     color: rgba(255, 255, 255, 0.8);
     font-size: 16px;
     line-height: 26px;
+    outline: none;
+
 }
 .wrapper{
     overflow: hidden;
@@ -350,11 +352,10 @@ a:hover{
 .testimonails__inner {
     margin-top: 28px;
 }
-.testimonails__slider{
-    display: flex;
-}
+
 .testimonails__item{
     padding-right: 30px;
+    padding-left: 2px;
     width: 25%;
 }
 .testimonails__item:last-child{
@@ -365,6 +366,69 @@ a:hover{
 }
 .testimonails__item-text {
     margin-top: 16px;
+}
+/* SLIDER  
+==================================================*/
+.slick-list {
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+}
+.testimonails__slider {
+    position: relative;
+}
+.testimonails__slider .slick-slider{
+    position: relative;
+}
+.testimonails__slider .slick-arrow{
+    width: 15px;
+    height: 15px;
+    outline: none;
+    font-size: 0;
+    cursor: pointer;
+    background-color: transparent;
+    transform: rotate(45deg);
+    padding: 0px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFE195;
+    border-right: none;
+    border-top: none;
+    opacity: 0.5;
+    transition: all .2s;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+.testimonails__slider .slick-arrow:hover{
+    opacity: 1;
+}
+.testimonails__slider .slick-arrow.slick-prev{
+    left: -45px;
+}
+.testimonails__slider .slick-arrow.slick-next{
+    right: -45px;
+    transform: rotate(225deg);
+}
+.testimonails__slider .slick-dots{
+    display: flex;
+    justify-content: center;
+}
+.testimonails__slider .slick-dots li button{
+    font-size: 0;
+    outline: none;
+    margin: 4px;
+    background-color: transparent;
+    border: none;
+    height: 0;
+    width: 25px;
+    border-bottom: 2px solid #FFE195;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.testimonails__slider .slick-dots li.slick-active button{
+    opacity: 1;
 }
 /* services
 ================================================== */
@@ -532,7 +596,6 @@ color: #FFFFFF;
 .blog__inner{
     margin-top: 35px;
 
-    display: flex;
     flex-wrap: wrap;
 }
 .blog__item {
@@ -547,7 +610,7 @@ color: #FFFFFF;
 .blog__img {
     background-color: #FFE195;
     width: auto;
-    height: 200px;
+    height: max-content;
 }
 .blog__img img{
     display: block;
@@ -572,6 +635,28 @@ color: #FFFFFF;
 }
 .blog__item:hover .blog__img img{
     opacity: 0.4;
+}
+
+/* BLOG SLIDER  
+==================================================*/
+.blog__slider .slick-dots{
+    display: flex;
+    justify-content: center;
+}
+.blog__slider .slick-dots li button{
+    font-size: 0;
+    outline: none;
+    margin: 4px;
+    background-color: transparent;
+    border: none;
+    height: 0;
+    width: 25px;
+    border-bottom: 2px solid #FFE195;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.blog__slider .slick-dots li.slick-active button{
+    opacity: 1;
 }
 
 /* FOOTER
