@@ -291,9 +291,7 @@ a:hover{
     color: #FFFFFF;
 
 }
-.intro__text {
 
-}
 /* intro__buttons
 ================================================== */
 .intro__buttons {
@@ -437,8 +435,6 @@ a:hover{
 .services {
     margin-top: 95px;
 }
-.services__title {
-}
 .services__items {
     display: flex;
     flex-wrap: wrap;
@@ -476,8 +472,6 @@ a:hover{
 .services__item-title {
     text-transform: uppercase;
     transition: all .2s;
-}
-.services__item-text {
 }
 .services__item-link {
     min-width: 100%;
@@ -561,8 +555,6 @@ a:hover{
     width: 50%;
 
 }
-.middle-section__inner-title {
-}
 .middle-section__inner-text {
     margin-top: 18px;
 }
@@ -579,8 +571,7 @@ a:hover{
 
 color: #FFFFFF;
 }
-.block__descr {
-}
+
 .block__tel a{
     font-family: Playfair Display;
     font-weight: bold;
@@ -601,6 +592,7 @@ color: #FFFFFF;
 .blog__item {
     cursor: pointer;
     padding-right: 20px;
+    width: 100%;
 }
 
 .blog__img {

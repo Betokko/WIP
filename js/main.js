@@ -41,7 +41,6 @@ $(document).ready(function(){
               arrows: false,
               dots: true,
               slidesToShow: 3,
-              slidesToScroll: 1
             }
           },
           {
@@ -50,7 +49,6 @@ $(document).ready(function(){
               arrows: false,
               dots: true,
               slidesToShow: 1,
-              slidesToScroll: 1
             }
           }
         ]
