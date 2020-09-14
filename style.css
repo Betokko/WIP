@@ -314,6 +314,32 @@ a:hover{
 .social-item:hover{
     opacity: 0.8;
 }
+
+
+/* anchor  */
+.inner__anchor{
+    position: relative;
+    animation-name: jump;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes jump{
+    0%{
+        top: 0;
+        
+    }
+    50%{
+        top: 5px;
+    }
+
+    100%{
+        top: 0;
+
+    }
+}
 .intro__anchor {
     width: 50%;
 }
