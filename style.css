@@ -17,7 +17,9 @@ ul{
     font-size: 16px;
     line-height: 26px;
     outline: none;
-
+}
+ul{
+    padding: 0;
 }
 .wrapper{
     overflow: hidden;
@@ -45,8 +47,19 @@ a:hover{
     top: 0;
     left: 0;
     z-index: 50;
-
     width: 100%;
+}
+
+.header.fixed{
+    position: fixed;
+    background-color: rgba(11, 19, 29, 0.9);
+}
+
+.header.fixed .header__inner{
+    padding: 10px 0;
+}
+.header.fixed .logo{
+    height: 40px;
 }
 .header__inner {
     display: flex;
@@ -215,8 +228,8 @@ a:hover{
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     display: none;
   }
   .hamRotate.active {
