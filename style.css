@@ -135,7 +135,7 @@ a:hover{
     position: absolute;
     width: 14px;
     height: 9px;
-    background-image: url(/images/btn/arrow-black.svg);
+    background-image: url(images/btn/arrow-black.svg);
     top: 10px;
     left: 12px;
 }
@@ -170,7 +170,7 @@ a:hover{
     position: absolute;
     width: 14px;
     height: 9px;
-    background-image: url(/images/btn/arrow-gold.svg);
+    background-image: url(images/btn/arrow-gold.svg);
     top: 10px;
     left: 12px;
     transition: all .2s;
@@ -180,7 +180,7 @@ a:hover{
     color: #000;
 }
 .drop-down-menu__item:hover.drop-down-menu__item::before{
-    background-image: url(/images/btn/arrow-black.svg);
+    background-image: url(images/btn/arrow-black.svg);
 }
 
 
@@ -338,17 +338,6 @@ a:hover{
 }
 /* testimonails
 ================================================== */
-
-
-
-
-
-
-
-
-
-
-
 
 .testimonails {
     margin-top: 95px;
@@ -608,22 +597,14 @@ color: #FFFFFF;
 }
 .blog__inner{
     margin-top: 35px;
-
-    flex-wrap: wrap;
 }
 .blog__item {
-    width: 280px;
     cursor: pointer;
-    margin-right: 20px;
-    
+    padding-right: 20px;
 }
-.blog__item:last-child{
-    margin-right: 0;
-}
+
 .blog__img {
     background-color: #FFE195;
-    width: auto;
-    height: max-content;
 }
 .blog__img img{
     display: block;
@@ -655,6 +636,7 @@ color: #FFFFFF;
 .blog__slider .slick-dots{
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 .blog__slider .slick-dots li button{
     font-size: 0;
