@@ -624,7 +624,7 @@ color: #FFFFFF;
 .blog__item {
     cursor: pointer;
     padding-right: 20px;
-    width: 100%;
+
 }
 
 .blog__img {
@@ -633,7 +633,6 @@ color: #FFFFFF;
 .blog__img img{
     display: block;
     transition: all .2s;
-
 
 }
 .blog__date {
