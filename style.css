@@ -228,8 +228,8 @@ a:hover{
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     display: none;
   }
   .hamRotate.active {
@@ -819,6 +819,35 @@ color: #FFFFFF;
 
     @media (max-width: 991px) {
         /* header  */
+        .header.show {
+            display: flex;
+            background-color: rgba(11, 19, 29, 0.9);
+            height: 100vh;
+        }
+
+        .header.show.fixed{
+            height: 100vh;
+        }
+        .header.show .nav{
+            display: flex;
+        }
+        .header.show .nav .nav__list{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            position: absolute;
+            top: 229px;
+            left: 30px;
+            margin: 0;
+        }
+        .header.show .nav .nav__list .nav__item{
+            padding: 8px 0;
+        }
+        .header.show .drop-down-menu__list{
+            display: flex;
+            flex-direction: column;
+        }
+
 
         .header__inner{
             padding-top: 20px;
@@ -827,6 +856,7 @@ color: #FFFFFF;
         .nav{
             display: none;
         }
+
         .nav--footer{
             display: flex;
             font-size: 12px;
@@ -835,6 +865,8 @@ color: #FFFFFF;
         /* burger */
         .burger{
             order: 1;
+            background-color: transparent;
+            border: none;
 
         }
         .ham{

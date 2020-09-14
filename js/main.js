@@ -90,9 +90,19 @@ $(document).ready(function(){
        $('html, body').animate({
          scrollTop: elementOffset-100
        })
+      })
+
+      //  navToggle 
+      let ham = $('#header')
+      let navToggle = $('#navToggle')
+        navToggle.on('click', function(event){
+          event.preventDefault();
+          ham.toggleClass('show');
+
+
+      })
 
 
 
-
-     })
+    
 })
