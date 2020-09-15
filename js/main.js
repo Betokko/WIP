@@ -88,7 +88,7 @@ $(document).ready(function(){
        let elementOffset = $(elementID).offset().top;
 
        $('html, body').animate({
-         scrollTop: elementOffset-100
+         scrollTop: elementOffset-50
        })
       })
 
