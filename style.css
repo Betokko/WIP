@@ -245,7 +245,7 @@ a:hover{
 .burger {
     position: absolute;
     top: 5px;
-    right: 0px;
+    right: 20px;
 }
 .ham {
     cursor: pointer;
@@ -851,12 +851,16 @@ color: #FFFFFF;
             overflow: hidden;
         }
         /* logo  */
+        .logo{
+            margin-left: 20px;
+        }
         /* header  */
      
         .header.show {
             display: flex;
             background-color: rgba(11, 19, 29, 0.9);
             height: 100vh;
+            overflow: hidden;
         }
  
         /* nav  */
