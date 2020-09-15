@@ -118,6 +118,7 @@ a:hover{
 .nav__item:last-child{
     margin-right: 0;
 }
+
 .tel{
     margin: 0 20px;
 }
@@ -851,6 +852,7 @@ color: #FFFFFF;
         }
         /* logo  */
         /* header  */
+     
         .header.show {
             display: flex;
             background-color: rgba(11, 19, 29, 0.9);
