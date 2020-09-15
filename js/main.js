@@ -29,31 +29,37 @@ $(document).ready(function(){
           }
         ]
       });
+
       $('.blog__slider').slick({
         infinite: true,
+        arrows: false,
         slidesToShow: 4,
         slidesToScroll: 1,
-        arrows: false,
         responsive: [
           {
-            breakpoint: 1199,
-            settings: {
-              arrows: false,
-              dots: true,
-              slidesToShow: 3,
-            }
-          },
+              breakpoint: 1199,
+              settings: {
+                dots: true,
+                slidesToShow: 3
+              }
+            },
           {
             breakpoint: 768,
             settings: {
-              arrows: false,
               dots: true,
-              slidesToShow: 1,
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 650,
+            settings: {
+              dots: true,
+              slidesToShow: 1
             }
           }
         ]
+
       })
-  
  
 
       
