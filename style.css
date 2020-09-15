@@ -87,6 +87,7 @@ a:hover{
 .logo{
     height: 80px;
     width: 80px;
+    margin-right: 20px;
 }
 .logo-img{
     display: block;
@@ -97,7 +98,6 @@ a:hover{
      background-image: url('images/Logo-fixed.svg');
      background-repeat: no-repeat;
      background-position: center;
-     va
  }
  .header.fixed .logo-img{
      display: none;
@@ -244,8 +244,8 @@ a:hover{
 }
 .burger {
     position: absolute;
-    top: 5px;
-    right: 20px;
+    top: 15px;
+    right: 0;
 }
 .ham {
     cursor: pointer;
@@ -797,7 +797,7 @@ color: #FFFFFF;
             height: 50px;
             width: 50px;
         }
-    
+ 
         .nav__item {
             margin-right: 10px;
         }
