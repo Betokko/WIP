@@ -654,11 +654,12 @@ color: #FFFFFF;
 .blog__item {
     width: 100%;
     margin: 0 10px;
+    cursor: pointer;
 }
 .blog__img {
     background-color: #FFE195;
 }
-.blog__img:hover .blog__pic{
+.blog__item:hover .blog__pic{
     opacity: 0.5;
 }
 .blog__pic{
@@ -666,6 +667,7 @@ color: #FFFFFF;
     background-position: center;
     width: 100%;
     height: 200px;
+    transition: all 0.2s;
 }
 .blog__pic--1{
     background-image: url('images/blog/1.jpg');
