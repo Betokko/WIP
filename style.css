@@ -113,6 +113,7 @@ a:hover{
 .nav__list {
     display: flex;
     padding: 0;
+    flex-wrap: wrap;
 }
 .nav__item {
     margin-right: 10px;
