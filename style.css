@@ -80,9 +80,10 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
-.header__inner-item {
-}
+
 .logo{
     height: 80px;
     width: 80px;
@@ -92,6 +93,16 @@ a:hover{
     width: 100%;
     height: 100%;
   }
+ .header.fixed .logo{
+     background-image: url('images/Logo-fixed.svg');
+     background-repeat: no-repeat;
+     background-position: center;
+     va
+ }
+ .header.fixed .logo-img{
+     display: none;
+ } 
+
 /* NAV
 ================================================== */
 .nav{
@@ -107,7 +118,9 @@ a:hover{
 .nav__item:last-child{
     margin-right: 0;
 }
-
+.tel{
+    margin-right: 20px;
+}
 .tel a{
     color: #FFE195;
 }
@@ -133,7 +146,6 @@ a:hover{
     transition: all .2s;
     cursor: pointer;
     white-space: nowrap;
-    width: 280px;
 }
 .drop-down-menu__btn::before{
     content: "";
@@ -225,7 +237,11 @@ a:hover{
 
 /* BURGER ANIMATE
 ================================================== */
-
+.burger {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
 .ham {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
@@ -237,6 +253,7 @@ a:hover{
     width: 80px;
     height: 80px;
     display: none;
+
   }
   .hamRotate.active {
     transform: rotate(45deg);
@@ -592,6 +609,7 @@ a:hover{
 }
 .middle-section__inner-btn {
     margin-top: 18px;
+    width: fit-content;
 }
 /* second block 
 ================================================== */
@@ -829,19 +847,24 @@ color: #FFFFFF;
             background-color: rgba(11, 19, 29, 0.9);
             height: 100vh;
         }
+ 
         /* nav  */
+        .header.fixed .burger{
+            top: -10px;
+        }
         .header.show.fixed{
             height: 100vh;
         }
         .header.show .nav{
             display: flex;
+            position: absolute;
         }
         .header.show .nav .nav__list{
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
             position: absolute;
-            top: 129px;
+            top: 40px;
             left: 20px;
             margin: 0;
         }
@@ -863,7 +886,7 @@ color: #FFFFFF;
             flex-direction: column;
             position: absolute;
             left: 10px;
-            top: 340px;
+            top: 320px;
 
 
         }
@@ -913,6 +936,8 @@ color: #FFFFFF;
         /* block */
         .block{
             padding: 20px;
+            margin-right: -10px;
+            margin-left: -10px;
         }
         .block__items{
             flex-direction: column;
