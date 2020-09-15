@@ -98,7 +98,10 @@ $(document).ready(function(){
         navToggle.on('click', function(event){
           event.preventDefault();
           ham.toggleClass('show');
+          $('body').toggleClass('lock')
       })
+
+      
 
 
 

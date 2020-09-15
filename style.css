@@ -244,7 +244,7 @@ a:hover{
 .burger {
     position: absolute;
     top: 5px;
-    right: 0;
+    right: 0px;
 }
 .ham {
     cursor: pointer;
@@ -845,6 +845,11 @@ color: #FFFFFF;
 
 
     @media (max-width: 991px) {
+        /* body  */
+        body.lock{
+            overflow: hidden;
+        }
+        /* logo  */
         /* header  */
         .header.show {
             display: flex;
